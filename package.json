@@ -1,0 +1,26 @@
+{
+  "name": "personal-portifolio",
+  "version": "1.0.0",
+  "description": "Creation of webpages(Personal Portfolio) using tailwindcss by better understanding of how tailwindcss works",
+  "main": "index.js",
+"scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIYONIZERA/Personal-Portifolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NIYONIZERA/Personal-Portifolio/issues"
+  },
+  "homepage": "https://github.com/NIYONIZERA/Personal-Portifolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}

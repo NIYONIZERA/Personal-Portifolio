@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen">
+
+    <!-- Navigation Bar -->
+    <nav class="flex justify-between items-center px-6 py-4 bg-white shadow-md h-20">
+        <div class="text-xl font-bold text-blue-600">My Portfolio</div>
+        <div class="space-x-6">
+            <a href="#" class="text-gray-700 hover:text-blue-700">About</a>
+            <a href="#" class="text-gray-700 hover:text-blue-700">Skills</a>
+            <a href="#" class="text-gray-700 hover:text-blue-700">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="flex-grow grid grid-cols-1 md:grid-cols-2"><!--means that for small screen it display one column and for medium & large screen it will display 2 columns-->
+        <!-- Card1 -->
+        <div class="flex flex-col justify-center items-center bg-blue-100 p-10 text-center ">
+            <h1 class="text-4xl font-bold text-black">Hello, I'm Jane Doe</h1>
+            <p class="text-gray-600 mt-2">A Web Developer Based in Rwanda</p>
+            <a href="#" class="mt-5 bg-blue-600 text-white px-4 py-3 rounded-lg text-lg font-normal shadow-md hover:bg-blue-700 ">
+                View My Work
+            </a>
+        </div>
+
+        <!-- Card2 -->
+        <div class="flex flex-col justify-center items-center bg-white p-10 text-center ">
+            <h1 class="text-2xl font-bold text-black">Welcome to My Portfolio</h1>
+            <p class="text-gray-600 mt-2 max-w-md">
+                I create beautiful and functional websites that help businesses grow and succeed in the digital world.
+            </p>
+        </div>
+    </div>
+
+  <!-- Footer -->
+<div class="bg-gray-600 text-white py-6 ">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 text-center md:text-left gap-6">
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Quick Links</h3>
+                <ul class="list-none space-y-2">
+                    <li><a href="#" class="hover:text-blue-400">About</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Skills</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Follow Me -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Follow Me</h3>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="#" class="hover:text-blue-400">Facebook</a>
+                    <a href="#" class="hover:text-blue-400">Instagram</a>
+                    <a href="#" class="hover:text-blue-400">Twitter</a>
+                </div>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Contact Us</h3>
+                <p>Email: doejane@gmail.com</p>
+                <p>Phone: +250782806704</p>
+                <p>Address: Kigali, Rwanda</p>
+            </div>
+        </div>
+        
+        <!-- Copyright Section -->
+        <div class="text-center mt-4 border-t border-gray-400 pt-2">
+            <p class="text-sm">© 2025 JaneI create beautiful and functional websites that help  Doe. All Rights Reserved.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
